@@ -1,0 +1,108 @@
+{
+  "rows": 4087,
+  "labeled_rows": 3151,
+  "unlabeled_rows": 936,
+  "duplicated_b_numbers": 2,
+  "parity_checks": [
+    {
+      "B_number": "b0831",
+      "ok": true,
+      "max_abs_difference": 1.4210854715202004e-14
+    },
+    {
+      "B_number": "b1039",
+      "ok": true,
+      "max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "B_number": "b3953",
+      "ok": true,
+      "max_abs_difference": 3.552713678800501e-15
+    },
+    {
+      "B_number": "b1664",
+      "ok": true,
+      "max_abs_difference": 7.105427357601002e-15
+    },
+    {
+      "B_number": "b3215",
+      "ok": true,
+      "max_abs_difference": 4.440892098500626e-16
+    },
+    {
+      "B_number": "b3024",
+      "ok": true,
+      "max_abs_difference": 4.163336342344337e-17
+    },
+    {
+      "B_number": "b0941",
+      "ok": true,
+      "max_abs_difference": 1.9081958235744878e-17
+    },
+    {
+      "B_number": "b0460",
+      "ok": true,
+      "max_abs_difference": 7.105427357601002e-15
+    },
+    {
+      "B_number": "b0224",
+      "ok": true,
+      "max_abs_difference": 5.551115123125783e-17
+    },
+    {
+      "B_number": "b1802",
+      "ok": true,
+      "max_abs_difference": 7.105427357601002e-15
+    },
+    {
+      "B_number": "b0303",
+      "ok": true,
+      "max_abs_difference": 1.4210854715202004e-14
+    },
+    {
+      "B_number": "b1498",
+      "ok": true,
+      "max_abs_difference": 3.552713678800501e-15
+    },
+    {
+      "B_number": "b0146",
+      "ok": true,
+      "max_abs_difference": 3.552713678800501e-15
+    },
+    {
+      "B_number": "b2996",
+      "ok": true,
+      "max_abs_difference": 8.326672684688674e-17
+    },
+    {
+      "B_number": "b3710",
+      "ok": true,
+      "max_abs_difference": 7.105427357601002e-15
+    },
+    {
+      "B_number": "b0195",
+      "ok": true,
+      "max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "B_number": "b1847",
+      "ok": true,
+      "max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "B_number": "b0416",
+      "ok": true,
+      "max_abs_difference": 7.105427357601002e-15
+    },
+    {
+      "B_number": "b2478",
+      "ok": true,
+      "max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "B_number": "b3705",
+      "ok": true,
+      "max_abs_difference": 7.105427357601002e-15
+    }
+  ]
+}

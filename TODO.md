@@ -1,0 +1,11 @@
+# Implementation outcomes
+
+- [ ] The source-of-truth feature function is shared by training and the backend. It validates the 20 standard amino acids, rejects sequences shorter than 10 residues, includes leucine in Aliphatic_Index, and has tests for percentages, rejection, and parity against the supplied table.
+- [ ] The reproducible training workflow uses only `data/features_all.csv`, groups every split by `B_number`, holds out 20 percent of genes for a final test set, uses five grouped folds for out-of-fold predictions, calibrates the SVM probabilities, trains the stacker only on out-of-fold predictions, and saves the requested joblib and JSON artifacts.
+- [ ] FastAPI exposes GET `/meta`, POST `/features`, POST `/predict`, and POST `/predict_batch` with Pydantic validation, clear errors, probabilities and final score clamped to 0.0 through 1.0, agreement spread and outlier reporting, contributions, importances, and warnings.
+- [ ] The predictor page has the requested inputs, sequence calculation and field locking, manual edit markers, category options from `/meta`, plain validation messages, range warnings, reset, example loading, two-column desktop layout, and one-column mobile layout that remains usable at 360px.
+- [ ] The result panel shows the final score, labeled 0.0 to 1.0 scale, all three model probabilities, agreement and spread, logistic-regression contributions, random-forest importances, What if sliders, backend warnings, JSON and CSV export, and print controls.
+- [ ] Batch mode documents its CSV columns, uploads a CSV, and returns per-row model probabilities, final score, agreement, spread, and outlier model.
+- [ ] How this works describes the E. coli data, features, models, stacking, and limitations. All displayed metrics come from `model_card.json`, with `Not available` for missing values.
+- [ ] The README documents installation and one-command startup. The project includes requirements, tests, the model-saving snippet, a sample batch CSV, the route manifest, and a production Dockerfile.
+- [ ] The final repository contains no em dashes, emoji, decorative color transitions, pill-shaped buttons, oversized button corner radii, invented model metrics, or dead navigation links. The app is tested through HTTP and build checks before delivery.

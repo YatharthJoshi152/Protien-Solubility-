@@ -1,0 +1,7 @@
+{
+  "routes": [
+    { "path": "/", "title": "Predictor" },
+    { "path": "/batch", "title": "Batch" },
+    { "path": "/how-this-works", "title": "How this works" }
+  ]
+}
