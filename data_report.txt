@@ -1,0 +1,10 @@
+Master rows: 4132 (labeled 3173, unlabeled 959)
+Dropped, no UniProt sequence match: 34
+Dropped, sequence too short or has non-standard letters: 10
+Dropped, exact duplicate labeled rows: 0
+Dropped from unlabeled, gene already in labeled set: ['b3709']
+Final rows: 4087 (labeled 3151, unlabeled 936)
+Soluble share among labeled: 44.7%
+Labeled rows sharing a B_number with another labeled row (different constructs): 4  -> always split by B_number
+Cell_location (labeled): {'Cytoplasmic': 2257, 'Integral Membrane Protein': 319, 'Periplasmic': 302, 'Membrane Anchored': 127, 'Outer Membrane Lipoprotein': 81, 'Outer Membrane B-barrel protein': 42, 'Inner Membrane Lipoprotein': 8, 'Membrane Lipoprotein': 7, 'Periplasmic with N-terminal Membrane Anchor': 3, 'Membrane Associated': 2, 'Extracellular': 2, 'Unknown': 1}
+Cell_location (unlabeled): {'Integral Membrane Protein': 434, 'Cytoplasmic': 392, 'Periplasmic': 55, 'Membrane Anchored': 25, 'Outer Membrane Lipoprotein': 14, 'Outer Membrane B-barrel protein': 9, 'Membrane Lipoprotein': 4, 'Extracellular': 1, 'Inner Membrane Lipoprotein': 1, 'Unknown': 1}
